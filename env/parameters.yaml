@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:anttundra/adminUser:password
+  username: admin
+dashboardAuthID: vault:anttundra:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:anttundra:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:anttundra/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:anttundra/prow:hmacToken
